@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<banco codigo="4444" abreviatura="BSG">
+	<nome>Banco Simpático Galego</nome>
+	<presidente>
+		<nome>Federico</nome>
+		<apelido1>López</apelido1>
+		<apelido2>Graña</apelido2>
+	</presidente>
+	<dataCreación día="10" mes="12" ano="1979" />
+	<sucursais>
+		<sucursal codigo="0123">
+			<superficie unidade="m2">210</superficie>
+		</sucursal>
+		<sucursal codigo="0032">
+			<superficie unidade="m2">323</superficie>
+		</sucursal>
+	</sucursais>
+	<empregados>
+		<empregado codigo="EA44as" NSS="112233445566">
+			<nome>Alicia</nome>
+			<apelido1>Bueno</apelido1>
+			<apelido2>Abel</apelido2>
+			<sucursal>0123</sucursal>
+			<cargo>Director</cargo>
+		</empregado>
+		<empregado codigo="EO45ai" NSS="992233445599">
+			<nome>Lois</nome>
+			<apelido1>Casado</apelido1>
+			<apelido2>Flores</apelido2>
+			<sucursal>0123</sucursal>
+			<cargo>Interventor</cargo>
+		</empregado>
+		<!-- Salto página-->
+		<empregado codigo="EU55pi" NSS="888833448899">
+			<nome>Sabela</nome>
+			<apelido1>Ferreiro</apelido1>
+			<apelido2>Vila</apelido2>
+			<sucursal>0123</sucursal>
+			<cargo xs:nil="true" />
+		</empregado>
+		<empregado codigo="EE46as" NSS="555888445566">
+			<nome>Candela</nome>
+			<apelido1>Vigo</apelido1>
+			<apelido2>Pérez</apelido2>
+			<sucursal>0123</sucursal>
+			<cargo>Director</cargo>
+		</empregado>
+		<empregado codigo="EO66ai" NSS="323232445599">
+			<nome>Mauro</nome>
+			<apelido1>Pena</apelido1>
+			<apelido2>Domínguez</apelido2>
+			<sucursal>0123</sucursal>
+			<cargo>Interventor</cargo>
+		</empregado>
+		<empregado codigo="EA66pi" NSS="111833448111">
+			<nome>Xurxo</nome>
+			<apelido1>Chao</apelido1>
+			<apelido2>Vila</apelido2>
+			<sucursal>0123</sucursal>
+			<cargo>outros</cargo>
+		</empregado>
+	</empregados>
+</banco>
